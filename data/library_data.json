@@ -1,0 +1,118 @@
+{
+  "books": [
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "publication_year": 2008,
+      "copy_id": "COPY-001",
+      "is_reference_only": false,
+      "status": "reserved",
+      "borrow_count": 3
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350884",
+      "publication_year": 2008,
+      "copy_id": "COPY-002",
+      "is_reference_only": false,
+      "status": "available",
+      "borrow_count": 1
+    },
+    {
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "isbn": "9781593279288",
+      "publication_year": 2019,
+      "copy_id": "COPY-003",
+      "is_reference_only": false,
+      "status": "available",
+      "borrow_count": 0
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Cormen et al.",
+      "isbn": "9780262046305",
+      "publication_year": 2022,
+      "copy_id": "COPY-004",
+      "is_reference_only": false,
+      "status": "available",
+      "borrow_count": 1
+    }
+  ],
+  "members": [
+    {
+      "name": "Alice Johnson",
+      "member_id": "MEM-001",
+      "email": "alice@example.com",
+      "phone": "555-0101",
+      "is_active": true,
+      "_borrowed_copy_ids": [
+        "COPY-001"
+      ],
+      "_fines_owed": 0.0
+    },
+    {
+      "name": "Bob Smith",
+      "member_id": "MEM-002",
+      "email": "bob@example.com",
+      "phone": "555-0102",
+      "is_active": true,
+      "_borrowed_copy_ids": [],
+      "_fines_owed": 0.0
+    }
+  ],
+  "loans": [
+    {
+      "loan_id": "LOAN-1",
+      "copy_id": "COPY-001",
+      "member_id": "MEM-001",
+      "checkout_date": "2026-04-15",
+      "due_date": "2026-04-29",
+      "return_date": "2026-04-25"
+    },
+    {
+      "loan_id": "LOAN-2",
+      "copy_id": "COPY-002",
+      "member_id": "MEM-002",
+      "checkout_date": "2026-04-15",
+      "due_date": "2026-04-29",
+      "return_date": "2026-04-19"
+    },
+    {
+      "loan_id": "LOAN-3",
+      "copy_id": "COPY-004",
+      "member_id": "MEM-001",
+      "checkout_date": "2026-04-14",
+      "due_date": "2026-04-28",
+      "return_date": "2026-04-15"
+    },
+    {
+      "loan_id": "LOAN-4",
+      "copy_id": "COPY-001",
+      "member_id": "MEM-002",
+      "checkout_date": "2026-04-14",
+      "due_date": "2026-04-28",
+      "return_date": "2026-04-29"
+    },
+    {
+      "loan_id": "LOAN-5",
+      "copy_id": "COPY-001",
+      "member_id": "MEM-001",
+      "checkout_date": "2026-04-15",
+      "due_date": "2026-04-29",
+      "return_date": null
+    }
+  ],
+  "reservations": [
+    {
+      "reservation_id": "RES-1",
+      "copy_id": "COPY-001",
+      "member_id": "MEM-001",
+      "reserved_on": "2026-04-15",
+      "expires_on": "2026-04-22",
+      "notified": false
+    }
+  ]
+}
