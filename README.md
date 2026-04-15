@@ -1,3 +1,4 @@
+<img width="2560" height="1528" alt="Screenshot 2026-04-15 171030" src="https://github.com/user-attachments/assets/85b5a3dc-5a12-46bb-a8a3-c2281ed10d23" />
 # Library Management System
 
 A Python-based Library Management System built from the software construction guidance in the attached SWE 405 course PDF.
